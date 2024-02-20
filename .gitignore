@@ -1,0 +1,14 @@
+*.toc
+*.tex
+*.aux
+*.fdb_latexmk
+*.fls
+*~
+*.el
+*.log
+*.out
+*.gz
+*.bbl
+*.blg
+/evaluation/ *Minibuf-1*
+/index.org
