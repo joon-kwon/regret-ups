@@ -12,3 +12,5 @@
 *.blg
 /evaluation/ *Minibuf-1*
 /index.org
+/rendus/
+*minted*
