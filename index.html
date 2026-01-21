@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr,en" xml:lang="fr,en">
 <head>
-<!-- 2026-01-20 mar. 11:54 -->
+<!-- 2026-01-21 mer. 17:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Online learning, links with optimization and games</title>
@@ -223,9 +223,9 @@ operators (Mirror-Prox, Dual Extrapolation), fixed-point iterations
 modular, so that introduced tools and techniques could easily be
 used to define and analyze new algorithms.
 </p>
-<div id="outline-container-org7cee0ca" class="outline-2">
-<h2 id="org7cee0ca">Schedule</h2>
-<div class="outline-text-2" id="text-org7cee0ca">
+<div id="outline-container-org06aabe9" class="outline-2">
+<h2 id="org06aabe9">Schedule</h2>
+<div class="outline-text-2" id="text-org06aabe9">
 <dl class="org-dl">
 <dt>January, 22th</dt><dd>Convexity tools &#x2014; <a href="1-exercices.pdf">Exercices</a></dd>
 <dt>January, 29th</dt><dd>UMD Theory</dd>
@@ -236,97 +236,6 @@ used to define and analyze new algorithms.
 <dt>March, 19th</dt><dd>Regret learning in games</dd>
 <dt>March, 26th</dt><dd>Extensive-form games</dd>
 </dl>
-</div>
-</div>
-<div id="outline-container-orge8f33a6" class="outline-2">
-<h2 id="orge8f33a6">Evaluation</h2>
-<div class="outline-text-2" id="text-orge8f33a6">
-<p>
-Evaluation will be 100% project-based.
-</p>
-
-<p>
-<i>Projects will become available progressively.</i> A project can be
-attributed to at most one student. You must choose a project below
-(first come, first served) and notify me by sending an e-mail.
-</p>
-
-<p>
-Projects have various levels of estimated difficulty, indicated by a
-number of stars. Grading will take that into account. If you are
-facing <i>important difficulties</i>, you can ask for help by sending me an
-e-mail.
-</p>
-
-<p>
-Completed work must be sent by e-mail and may contain several files
-(e.g. a pdf and a Jupyter notebook).
-</p>
-
-<script>
-function startCountdown() {
-    var countDownDate = new Date("June 2, 2025 00:00:00").getTime();
-    var x = setInterval(function() {
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        
-        document.getElementById("countdown").innerHTML =
-           "<b><i>The deadline is June 1st, 23:59. — "+ days + " days " + hours + " hours " + minutes + " minutes and " + seconds + " seconds left"+"<b><i>";
-        
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("countdown").innerHTML = "EXPIRED";
-        }
-    }, 1000);
-}
-window.onload = function() {
-    startCountdown();
-}
-</script>
-
-<div id="countdown"></div>
-
-<p>
-If you need your grade early (for e.g. applications), you can send
-your project one week before the date on which you need your grade.
-</p>
-</div>
-</div>
-<div id="outline-container-orgcc78c4d" class="outline-2">
-<h2 id="orgcc78c4d">Candidates for validation</h2>
-<div class="outline-text-2" id="text-orgcc78c4d">
-<ol class="org-ol">
-<li>Brucato, Lorenzo. — ★★ [theory] <a href="evaluation/adagrad-cube-root.pdf">AdaGrad with cube-root normalization</a></li>
-<li>Caudard, Joris. — ★★ [theory, code] <a href="evaluation/umd-adagrad-norm.pdf">UMD-based extension of AdaGrad-Norm and application to games</a></li>
-<li>Chahmirian, Armen. — ★★★ [theory] <a href="evaluation/composite.pdf">Composite optimization</a></li>
-<li>Davion, Corentin. — ★★★ [theory, code] <a href="evaluation/approachability-games.pdf">Solving two-player zero-sum games with Blackwell's approachability</a></li>
-<li>Denis, Hector. — ★★★ [theory, code] <a href="evaluation/parameter-free-approachability-time-dependent.pdf">Approachability algorithms based on time-dependent norms</a></li>
-<li>El Aafi, Salma. — ★ [theory] <a href="evaluation/optimistic-arbitraty-norms.pdf">Optimistic iterations with arbitrary norms for solving games</a></li>
-<li>Glaib, Ilyas. — ★★ [theory, code] <a href="evaluation/market-game.pdf">A simple market game</a></li>
-<li>Gou, Xinyi. — ★★ [theory, code] <a href="evaluation/adagrad-games.pdf">AdaGrad on the simplex and application to games</a></li>
-<li>Hollands, Anna. — ★★ [theory] <a href="evaluation/adagrad-full.pdf">AdaGrad-Full</a></li>
-<li>Hueso, Pablo. — ★★ [theory] <a href="evaluation/global-costs.pdf">Regret minimization with global costs</a></li>
-<li>Kashou, Layth. — ★ [theory, code] <a href="evaluation/hybrid-md-da.pdf">A hybrid of mirror descent and dual averaging</a></li>
-<li>Kharisov, Timur. — ★★★ [theory, code] <a href="evaluation/approachability-optimization.pdf">Approachability-based optimization</a></li>
-<li>Khusainov, Marat. — ★★ [theory] <a href="evaluation/smoothness-adagrad-diagonal.pdf">AdaGrad-Diagonal: Stronger adaptivity to smoothness</a></li>
-<li>Lahmi, Elona. — ★★ [theory] <a href="evaluation/adagrad-da.pdf">Dual averaging variants of AdaGrad</a></li>
-<li>Launay, Jean-Baptiste. — ★★★★ [theory, code] <a href="evaluation/regret-treeplex-approachability.pdf">Minimizing regret on treeplexes with approachability</a></li>
-<li>Le Dréau, Vincent. — ★★ [theory, code] <a href="evaluation/bluffing-game.pdf">A simple bluffing game</a></li>
-<li>Lemaire, Alicia. — ★ [theory] <a href="evaluation/relative-smoothness.pdf">Convex optimization with relative smoothness</a></li>
-<li>Loret, Alexandre. — ★★ [theory] <a href="evaluation/strongly-convex-losses.pdf">Yet another algorithm for online strongly convex optimization</a></li>
-<li>Mingam, Aurèle. — ★★★ [theory, code] <a href="evaluation/games-line-search.pdf">Solving games with line-search</a></li>
-<li>Pradignac, Alexandre. — ★★ [theory] <a href="evaluation/finer-convex-optim-step-sizes.pdf">A finer analysis for convex optimization with step-sizes</a></li>
-<li>Riveiro, Ilian. — ★★ [theory] <a href="evaluation/adagrad-with-normalization.pdf">AdaGrad with normalization</a></li>
-<li>Salama, Saja. — ★★ [theory, code] <a href="evaluation/generalized-lipschitz-convex.pdf">A generalized approach for nonsmooth convex optimization</a></li>
-<li>Stussi, Raphaël. — ★ [theory, code] <a href="evaluation/da-stochastic-nonsmooth-convex-optim.pdf">Dual averaging for stochastic nonsmooth convex optimization</a></li>
-<li>Tapia Riera, Guido Samuel. — ★★★ [theory] <a href="evaluation/finer-approachability-bound.pdf">Finer approachability bounds</a></li>
-<li>Vantalon, Gautier. — ★★★ [theory] <a href="evaluation/dilated-regularizers.pdf">Dilated regularizers on treeplexes</a></li>
-<li>Yagouti, Redouane. — ★★★ [theory, code] <a href="evaluation/adagrad-norm-variants.pdf">Variants of AdaGrad-Norm and application to games</a></li>
-</ol>
 </div>
 </div>
 </div>
